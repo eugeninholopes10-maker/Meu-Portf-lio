@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eugênio Lopes | Desenvolvedor Web & Especialista em Landing Pages</title>
+  
+  <!-- Fontes Google & Ícones FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Arquivo de Estilos CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fundo com gradientes animados em Glow -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Header / NAVEGAÇÃO -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-code"></i> Eugênio<span>Lopes</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#inicio" class="nav-link active">Início</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#diferenciais" class="nav-link">Por Que Ter Um Site</a>
+        <a href="#portfolio" class="nav-link">Portfólio</a>
+        <a href="#calculadora" class="nav-link">Simular Projeto</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://instagram.com/eugeninholopes728" target="_blank" class="btn-icon" title="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/5562993669106?text=Ol%C3%A1%20Eug%C3%AAnio!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" class="btn btn-primary">
+          <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="badge-dot"></span> Disponível para novos projetos
+          </div>
+          <h1 class="hero-title">
+            Transformo visitantes em clientes com <span class="text-gradient">sites e páginas de vendas de alto impacto.</span>
+          </h1>
+          <p class="hero-description">
+            Desenvolvimento Web sob medida para impulsionar suas vendas, posicionar sua marca com elegância e garantir carregamento ultra-rápido em qualquer dispositivo.
+          </p>
+
+          <div class="hero-btns">
+            <a href="https://wa.me/5562993669106?text=Ol%C3%A1%20Eug%C3%AAnio,%20quero%20solicitar%20um%20or%C3%A7amento%20para%20meu%20site!" target="_blank" class="btn btn-primary btn-lg">
+              <i class="fa-brands fa-whatsapp"></i> Solicitar Orçamento Grátis
+            </a>
+            <a href="#portfolio" class="btn btn-outline btn-lg">
+              Ver Projetos <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h4>100%</h4>
+              <p>Foco em Conversão</p>
+            </div>
+            <div class="stat-item">
+              <h4>Ultra</h4>
+              <p>Design Responsivo & Veloz</p>
+            </div>
+            <div class="stat-item">
+              <h4>24/7</h4>
+              <p>Sua marca vendendo online</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA DA SUA FOTO E APRESENTAÇÃO NO TOPO -->
+        <div class="hero-profile-container">
+          <div class="glass-card profile-hero-card">
+            <div class="profile-photo-wrapper">
+              <!-- SUA FOTO AQUI -->
+              <img src="imagens/Eugenio.jpg.jpeg" alt="Eugênio Lopes - Desenvolvedor Web" class="main-developer-photo">
+              <span class="online-badge" title="Disponível"><i class="fa-solid fa-circle"></i></span>
+            </div>
+            <div class="profile-info">
+              <h3>Eugênio Lopes</h3>
+              <p class="role-text"><i class="fa-solid fa-code"></i> Desenvolvedor Web & Especialista em LP</p>
+              <div class="profile-social-pills">
+                <a href="https://instagram.com/eugeninholopes728" target="_blank"><i class="fa-brands fa-instagram"></i> @eugeninholopes728</a>
+                <a href="https://wa.me/5562993669106" target="_blank"><i class="fa-brands fa-whatsapp"></i> (62) 99366-9106</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">O que eu faço</span>
+          <h2 class="section-title">Soluções Digitais para Alavancar o Seu Negócio</h2>
+          <p class="section-desc">Páginas modernas criadas do zero para entregar a melhor experiência ao cliente.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>Landing Pages de Venda</h3>
+            <p>Páginas de alta conversão estruturadas com copywriting persuasivo, carregamento instantâneo e botão direto para seu WhatsApp ou Checkout.</p>
+            <ul class="service-list">
+              <li><i class="fa-solid fa-check"></i> Foco total em conversão</li>
+              <li><i class="fa-solid fa-check"></i> Integração com WhatsApp/Kiwify/Hotmart</li>
+              <li><i class="fa-solid fa-check"></i> Visual 100% Personalizado</li>
+            </ul>
+          </div>
+
+          <div class="service-card highlight">
+            <div class="popular-tag">Mais Solicitado</div>
+            <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Sites Institucionais</h3>
+            <p>Apresente sua empresa de forma profissional e elegante. Ideal para prestadores de serviços, clínicas, escritórios e autônomos.</p>
+            <ul class="service-list">
+              <li><i class="fa-solid fa-check"></i> Multi-páginas (Quem Somos, Serviços, Contato)</li>
+              <li><i class="fa-solid fa-check"></i> Otimizado para o Google (SEO)</li>
+              <li><i class="fa-solid fa-check"></i> Design Responsivo para Celulares</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <h3>Páginas de Captura / Link na Bio</h3>
+            <p>Centralize todos os seus links e capte leads para o seu negócio com uma página personalizada e impactante.</p>
+            <ul class="service-list">
+              <li><i class="fa-solid fa-check"></i> Substitui agregadores simples</li>
+              <li><i class="fa-solid fa-check"></i> Estilo único alinhado à sua marca</li>
+              <li><i class="fa-solid fa-check"></i> Captura de Nome e E-mail</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POR QUE TER UM SITE -->
+    <section id="diferenciais" class="why-us">
+      <div class="container">
+        <div class="why-grid">
+          <div class="why-text">
+            <span class="section-subtitle">Por que investir?</span>
+            <h2 class="section-title">Sem um site profissional, você está perdendo clientes todos os dias.</h2>
+            <p>Atualmente, as pessoas pesquisam antes de comprar. Um perfil no Instagram é excelente, mas uma página própria transmite a **credibilidade necessária** para fechar vendas de alto valor.</p>
+
+            <div class="why-features">
+              <div class="why-feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div>
+                  <h4>Mais Autoridade</h4>
+                  <p>Sua marca passa a percepção de uma empresa consolidada e confiável.</p>
+                </div>
+              </div>
+              <div class="why-feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <h4>Atendimento 24/7</h4>
+                  <p>Sua página explica seu trabalho e atrai clientes mesmo enquanto você dorme.</p>
+                </div>
+              </div>
+              <div class="why-feature-item">
+                <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div>
+                  <h4>Aumento nas Conversões</h4>
+                  <p>Gargalos de vendas são eliminados com botões claros e chamadas estratégicas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-cta-box glass-card">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <h3>"Sua presença online é a vitrine principal do seu trabalho."</h3>
+            <p>Deixe-me transformar a sua ideia em um site completo, atraente e pronto para vender.</p>
+            
+            <div class="author-info">
+              <div class="avatar-container">
+                <img src="sua-foto.jpg" alt="Eugênio Lopes" class="author-photo">
+              </div>
+              <div>
+                <strong>Eugênio Lopes</strong>
+                <span>Desenvolvedor Web</span>
+              </div>
+            </div>
+
+            <a href="https://wa.me/5562993669106?text=Ol%C3%A1%20Eug%C3%AAnio,%20quero%20uma%20consultoria%20r%C3%A1pida%20sobre%20meu%20projeto!" target="_blank" class="btn btn-primary btn-block mt-2">
+              <i class="fa-brands fa-whatsapp"></i> Conversar com Eugênio
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFÓLIO E DEMOS -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Exemplos Práticos</span>
+          <h2 class="section-title">Modelos & Estruturas para se Inspirar</h2>
+          <p class="section-desc">Projetos desenvolvidos com foco em performance, estética impecável e conversão.</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-card">
+            <div class="portfolio-img bg-p1">
+              <span class="tag">Landing Page</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>Página de Vendas de Infoproduto</h3>
+              <p>Design moderno para e-books, cursos e mentorias digitais com integração de checkout.</p>
+              <a href="https://wa.me/5562993669106?text=Gostei%20do%20modelo%20de%20P%C3%A1gina%20de%20Vendas!%20Pode%20me%20passar%20mais%20detalhes?" target="_blank" class="portfolio-link">Quero um assim <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-img bg-p2">
+              <span class="tag">Institucional</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>Site para Prestadores de Serviço</h3>
+              <p>Ideal para profissionais autônomos, consultores, médicos, advogados e barbearias.</p>
+              <a href="https://wa.me/5562993669106?text=Gostei%20do%20modelo%20Institucional!%20Como%20funciona?" target="_blank" class="portfolio-link">Quero um assim <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-img bg-p3">
+              <span class="tag">Captura</span>
+            </div>
+            <div class="portfolio-info">
+              <h3>Bio Link Premium</h3>
+              <p>Substitua links genéricos por uma página moderna com todos os seus produtos e redes.</p>
+              <a href="https://wa.me/5562993669106?text=Gostei%20do%20modelo%20Bio%20Link!%20Qual%20o%20valor?" target="_blank" class="portfolio-link">Quero um assim <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMULADOR INTERATIVO -->
+    <section id="calculadora" class="calculator">
+      <div class="container">
+        <div class="glass-card calc-card">
+          <div class="calc-header text-center">
+            <span class="section-subtitle">Simulador Interativo</span>
+            <h2>Monte seu Projeto e Receba a Estimativa no WhatsApp</h2>
+            <p>Selecione as opções que precisa para o seu site:</p>
+          </div>
+
+          <div class="calc-grid">
+            <div class="calc-options">
+              <div class="option-group">
+                <label class="group-title">Tipo de Site:</label>
+                <div class="radio-tiles">
+                  <label class="tile active">
+                    <input type="radio" name="site_type" value="Landing Page" data-price="350" checked>
+                    <span><i class="fa-solid fa-bolt"></i> Landing Page (1 Página)</span>
+                  </label>
+                  <label class="tile">
+                    <input type="radio" name="site_type" value="Site Institucional" data-price="600">
+                    <span><i class="fa-solid fa-sitemap"></i> Site Institucional Completo</span>
+                  </label>
+                  <label class="tile">
+                    <input type="radio" name="site_type" value="Link na Bio Premium" data-price="200">
+                    <span><i class="fa-solid fa-link"></i> Link na Bio / Captura</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="option-group">
+                <label class="group-title">Recursos Adicionais:</label>
+                <div class="checkbox-list">
+                  <label class="check-item">
+                    <input type="checkbox" class="feature-check" value="Integração WhatsApp Direct" data-price="50" checked>
+                    <span>Botão de WhatsApp com Mensagem Personalizada</span>
+                  </label>
+                  <label class="check-item">
+                    <input type="checkbox" class="feature-check" value="Otimização Google SEO" data-price="100">
+                    <span>Otimização para busca no Google (SEO)</span>
+                  </label>
+                  <label class="check-item">
+                    <input type="checkbox" class="feature-check" value="Animações Elegantes JS" data-price="80" checked>
+                    <span>Efeitos Interativos & Animações</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="calc-summary text-center">
+              <div class="summary-box">
+                <span>Estimativa de Investimento:</span>
+                <div class="price-display">R$ <span id="total-price">480</span></div>
+                <small>*Valor aproximado. Condições flexíveis no PIX ou Cartão.</small>
+                
+                <button id="send-whatsapp-btn" class="btn btn-primary btn-block mt-3">
+                  <i class="fa-brands fa-whatsapp"></i> Enviar Briefing por WhatsApp
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ (DÚVIDAS FREQUENTES) -->
+    <section id="faq" class="faq">
+      <div class="container small-container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Tire suas dúvidas</span>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>Em quanto tempo meu site fica pronto?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>O prazo médio para entrega de uma Landing Page é de 3 a 7 dias úteis após o envio de todas as informações (textos, fotos e logos).</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>O site vai funcionar bem no celular?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>Com certeza! Todos os sites são construídos com tecnologia 100% responsiva, garantindo visual perfeito e navegação fluida em celulares, tablets e computadores.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>Como funciona a forma de pagamento?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>Trabalhamos com entrada de 50% no início do projeto e 50% na entrega final, ou parcelado via cartão de crédito e PIX.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>Você me ajuda com o domínio e hospedagem?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p>Sim! Eu auxilio em todo o processo de registro do seu nome (ex: seunegocio.com.br) e na configuração do servidor de hospedagem sem complicações.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION FINAL -->
+    <section class="cta-final">
+      <div class="container text-center">
+        <h2>Pronto para elevar o nível do seu negócio?</h2>
+        <p>Entre em contato agora mesmo e vamos transformar a sua presença digital!</p>
+        <div class="cta-buttons">
+          <a href="https://wa.me/5562993669106?text=Ol%C3%A1%20Eug%C3%AAnio!%20Quero%20fazer%20meu%20site%20com%20voc%C3%AA." target="_blank" class="btn btn-primary btn-lg">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp: (62) 99366-9106
+          </a>
+          <a href="https://instagram.com/eugeninholopes728" target="_blank" class="btn btn-outline btn-lg">
+            <i class="fa-brands fa-instagram"></i> @eugeninholopes728
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <i class="fa-solid fa-code"></i> Eugênio<span>Lopes</span>
+        </a>
+        <p>Desenvolvimento Web Profissional & Landing Pages de Alta Conversão.</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://wa.me/5562993669106" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://instagram.com/eugeninholopes728" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>&copy; <span id="year"></span> Eugênio Lopes - Desenvolvedor Web. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BOTÃO FLUTUANTE WHATSAPP -->
+  <a href="https://wa.me/5562993669106?text=Ol%C3%A1%20Eug%C3%AAnio!%20Gostaria%20de%20um%20or%C3%A7amento." class="whatsapp-float" target="_blank" title="Falar no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Arquivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
